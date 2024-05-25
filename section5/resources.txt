@@ -1,0 +1,53 @@
+- Use .gitkeep to keep track of empty folder.  (Lesson 34)
+- Use git add -p (--patch) to stage portions of a SAME file  (Lesson 34)
+Ref: https://levelup.gitconnected.com/staging-commits-with-git-add-patch-1eb18849aedb
+
+- Git Messages ref:  (Lesson 35)
+https://medium.com/@corrodedlotus/which-tense-should-be-used-on-a-git-commit-message-121cb641134b
+https://www.danclarke.com/git-tense
+https://www.quora.com/Which-tense-should-be-used-in-a-git-commit-message-past-present-and-why
+https://stackoverflow.com/questions/3580013/should-i-use-past-or-present-tense-in-git-commit-messages
+- Undo commits:
+  - Undo last commit (but keep the changes):  git reset --soft HEAD~1
+  - Completely remove the last commit:  git reset --hard HEAD~1
+- To remove a file from Git repo:
+  - Remove a tracked file:  git rm <file>
+  - Commit the change: git commit -m "remove <file>"
+Note: when --hard is used, it discards changes in the working directory.
+Note2: rm <file> is a shell thing; doesn't related to git.  Need to use 'git rm' to track this change in git.
+
+- Git Editor Config Commands (Lesson 36):
+https://git-scm.com/book/en/v2/Appendix-C%3A-Git-Commands-Setup-and-Config
+- Use vimtutor to learn about vim.  (Lesson 36)
+- 'git config --global core.editor "code --wait"' to set vscode as the editor.
+
+- git log ref:  (Lesson 37):
+https://git-scm.com/docs/git-log
+- git log --pretty=oneline
+- git log --abbrev-commit
+- git log --oneline
+
+- To make changes ONLY to the last commit:  (Lesson39)
+git commit --amend
+(ie): Forogt to include a file in the last commit; add the file to stage and then use --amend.
+Ref: https://git-scm.com/docs/git-commit
+
+- To remove a file that is already on stage:  git reset <file>
+- To amend and add message in-line:   git commit --amend -m <message>
+
+- .gitignore ref: (Lesson 40)
+https://gitignore.io
+https://www.toptal.com/developers/gitignore
+https://git-scm.com/docs/gitignore
+https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+
+
+
+
+
+
+
+
+
+
