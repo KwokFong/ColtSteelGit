@@ -26,11 +26,14 @@ s![alt text](images/git_switch.png)
   - Create a branch and switch to it in one go.  (Lesson 48)
 
 # git branch -d \<branch\>
-  - for deleting a branch.  (Lesson 50)
+  - deleting a branch.  (Lesson 50)
   - User can't issue this when currently on the branch.
   - User can't issue this when branch **hasn't been merged** into its upstream branch yet.
 # git branch -D \<branch\>
   - Force delete a branch.
 
 # git branch -m \<new-branch-name\>
-  - Needs to be **on** the branch first.  (Lesson 50)
+  - Move a branch; needs to be **on** the branch first.  (Lesson 50)
+
+# CheatSheet: 
+https://www.git-tower.com/blog/git-cheat-sheet/
