@@ -22,8 +22,10 @@ s![alt text](images/git_switch.png)
   - **(Key)** When using 'git branch \<new\>', the new branch is created **based off of the current HEAD**.  So **WHERE** this command is issued matters a lot. (Lesson 47)
 
 # git checkout \<branch-name\>
+  - Create a branch AND switch to it.
+
 # git switch -c \<branch-name\>
-  - Create a branch and switch to it in one go.  (Lesson 48)
+  - Create a branch **AND switch** to it in one go.  (Lesson 48)
 
 # git branch -d \<branch\>
   - deleting a branch.  (Lesson 50)
@@ -37,3 +39,12 @@ s![alt text](images/git_switch.png)
 
 # CheatSheet: 
 https://www.git-tower.com/blog/git-cheat-sheet/
+
+# Section6 Exercise:
+https://plum-poppy-0ea.notion.site/Branching-Exercise-b5460c881d56400cb046357d9a430bf8
+
+# git log --all --graph --oneline
+  - show branches graph in terminal.
+
+# Old command to switch branch:
+## git checkout
